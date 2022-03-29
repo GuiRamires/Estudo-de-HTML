@@ -29,13 +29,21 @@ HTML-> Hyper Text Markup Linguage (Linguagem de marcação de hiper texto)
 >html e o motor web rederize os códigos transformando-os em 
 elementos graficos.
 
-Estrutura básicas de uma página html 
+---
+
+## Estrutura básicas de uma página html 
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<title>Testegit</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página HTML</title>
 </head>
-<body></body>
+<body>
+
+</body>
 </html>
 ```
