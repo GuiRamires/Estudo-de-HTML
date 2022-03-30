@@ -1,0 +1,93 @@
+/*
+Arquivo css para formatação do site da cafeteria
+*/
+
+/*
+Aplicar a formatação a todos os elementos. Usaremos o 
+asterisco(*)
+*/
+
+*{
+    /* Zerar as margems externas dos elemento */
+    margin:0;
+    /* Zerar as margens internas dos elementos */
+    padding:0;
+    /* Ajustar das caixas (box) dos elementos */
+    box-sizing: border-box;
+}
+header{
+    height: 300px;/*Altura da caixa*/
+    
+    /* Adicionar uma imagem ao fundo */
+    background-image: url("../img/cafeteria2.jpg");
+
+    /* Ajustar a imagem em 100% */
+    background-size: 100%;
+
+    /*Ajustar a posição em x e y da imagem de fundo */
+    background-position: 0 -450px;
+
+    /* Animação de fundo */
+    transition: ease 1s;
+    padding-top: 120px;
+
+}
+
+h1{
+   text-align: center;
+   font-family: apple-system;
+   color: white;    
+   font-size: 115px;
+   opacity: 70%;
+
+   /* aplicar uma sombra no texto */
+   text-shadow: 10px 10px 5px rgb(32, 21, 0);
+
+}
+
+nav{
+    background-color: rgb(49, 42, 42);
+    text-align: center
+
+}
+
+nav ul li{
+    /* dispor os intens da lista(li) em linha */
+    display: inline-block;
+
+    /* aumentar a distancia entre os elementos */
+    padding: 20px;
+
+    transition: ease 1s;
+}
+
+/* ao passar o mouse sobre o link o fundo , o link deve alterar sua cor */
+nav ul li:hover { 
+    background-color: rgb(73, 70, 70);
+    
+}
+
+
+nav ul li a {
+    font-family: -apple-system;
+    font-size: 15pt;
+    color: white;
+
+    /* retirar o underline no lick */
+
+    text-decoration: none ; /*nenhum*/
+
+}
+
+footer{
+    height: 300px; /*altura em 300px*/
+    background-color: rgb(49, 42, 42);
+    color:white);
+    font-family: -apple-system;
+    padding-top: 50px;
+
+    /*dispor de forma flexivel e em linha */
+    display: flex;
+    flex-direction: row;
+
+}
