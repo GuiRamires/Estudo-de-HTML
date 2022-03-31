@@ -93,11 +93,63 @@ footer div {
   margin: 200px;
 }
 
-#redes ul li{
-   display: inline-block;
-   margin-left: 20px;
+#redes ul li {
+  display: inline-block;
+  margin-left: 20px;
 }
+
 #redes ul li a img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* ------------------- Inicio do CSS da home ------------------- */
+
+h2 {
+  font-family: -apple-system;
+  font-size: 20pt;
+  margin: 20px;
+  text-align: center;
+  padding-bottom: 20gitpx;
+
+  /*Borda na parte inferior (bottom) do h2 */
+
+  border-bottom: 10px solid rgb(49, 42, 42);
+}
+
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  font-size: 15pt;
+  line-height: 15pt; /* Espaçamento entre linhas */
+  text-align: justify;
+  margin-top: 50px;
+
+}
+
+/* Imagem no centro */
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 350px; /* largura da imagem */
+  height: 350px; /* altura da imagem */
+  margin: 50px; /* margin da imagem */
+  border-radius: 100px; /* borda arredondada */
+  opacity: 0.5; /* opacidade da imgem */
+  transition: ease 0.5s; /* transiçao da imagem */
+
+  /* mudar o ponteiro do mouse para uma mão*/
+  cursor: pointer;
+}
+
+/*quando passar o mouse a imagem muda */
+
+#imghome img:hover {
+  transition: ease 1s;
+  opacity: 1;
+  transform: scale(1.1);
 }
