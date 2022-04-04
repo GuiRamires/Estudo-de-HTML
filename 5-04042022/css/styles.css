@@ -1,0 +1,58 @@
+/*
+Criação deuma paleta de cores persolizadas
+*/
+
+/* Cores para o fundo - prefixo bg */
+.bgPreto{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.bgLaranja{
+    background-color: rgb(228, 138, 79);
+}
+
+.bgVermelho{
+    background-color: rgb(255, 87, 87);
+}
+
+
+/* cores para letras - prefixo tx */
+
+.txBranco{
+    color: rgb(255, 255, 255);
+}
+
+.txAmarelo{
+    color: rgb(255, 255, 4);
+}
+
+/* Tamanho da Letra */
+
+.t1{
+    font-size: 50pt;
+}
+
+.t2{
+    font-size: 40pt;
+}
+.t3{
+    font-size: 25pt;
+}
+
+.t4{
+    font-size: 18pt;
+}
+
+.p1{
+    font-family: -apple-system;
+    font-size: 15pt;
+
+}
+
+.p2{
+    font-family: -apple-system;
+    font-size: 12pt;
+}
+
+
