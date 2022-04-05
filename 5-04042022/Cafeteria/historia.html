@@ -14,17 +14,19 @@
      o título da página com a tag h1 -->
 
 <header>
+    <a href="#" onclick="abrir()">&#9776</a>
     <h1> Café da Leste</h1>
 </header>
 
 
 <nav>
+    <a href="#" id="fechar" onclick="fechar()"> &times; </a>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="historia.html">História</a></li>
         <li><a href="cardapio.html">Cardápio</a></li>
-        <li><a href="contato">Contato</a></li>
-        <li><a href="localizacao">Localização</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="localizacao.html">Localização</a></li>
     </ul>
 </nav>
 
@@ -75,6 +77,15 @@
     
 </footer>
 
+<script>
+    function abrir(){
+        document.getElementsByTagName("nav")[0].style.left="0px";
+    }
+
+    function fechar(){
+        document.getElementsByTagName("nav")[0].style.left="-150px";
+    }
+</script>
 
 </body>
 </html>

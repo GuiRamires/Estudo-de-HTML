@@ -32,6 +32,16 @@ header {
   padding-top: 120px;
 }
 
+header a, #fechar {
+  opacity: 0;
+  transition: ease 0.5s;
+}
+  
+
+
+
+
+
 h1 {
   text-align: center;
   font-family: apple-system;
@@ -46,6 +56,7 @@ h1 {
 nav {
   background-color: rgb(49, 42, 42);
   text-align: center;
+  transition: ease 0.5s;
 }
 
 nav ul li {
@@ -153,9 +164,9 @@ h2 {
   transform: scale(1.1);
 }
 
-/*--------------------- FIm do estilo da página home --------------------*/
+/*--------------------- FIm do css página home --------------------*/
 
-/*--------------------- Inicio do estilo da historia --------------------*/
+/*--------------------- Inicio do css historia --------------------*/
 
 #historia p {
   width: 70%;
@@ -199,9 +210,9 @@ iframe {
 }
 
 
-/* ------------- Fim do história -------------- */
+/* ------------- Fim do css história -------------- */
 
-/* ------------- Começo do Cardapio -------------- */
+/* ------------- Começo do css Cardapio -------------- */
 
 h3 {
   font-family: -apple-system;
@@ -247,6 +258,70 @@ h3 {
   font-weight: bold;
 }
 
+/* ------------------   fim do css cardapio   --------------------- */
+
+/* ------------------ começo do css contato ---------------------*/
+
+main form {
+  width: 40%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 2px solid rgb(32, 18, 18);
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  border: 2px solid rgb(32, 18, 18);
+}
+
+main form input[type="tel"],
+main form select {
+  width: 30%;
+}
+
+main form textarea {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(32, 18, 18);
+  width: 100%;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* --------------- fim do contato ---------------- */
+
+/* --------------- inicio do css localizaçõa --------------- */
+
+#mapa iframe {
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+}
+
+
+/* -------------- fim do css de localização ---------------- */
+
+
+
+
 
 
 
@@ -283,10 +358,39 @@ h3 {
     transition: ease 0.5s; /* transiçao da imagem */
   }
   
-  
-  body{
-    background-color: royalblue
+  header a{
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-decoration: none;
   }
+
+  #fechar{
+    opacity: 1;
+    color: white;
+    font-size: 15pt;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-decoration: none;
+    transform: rotate();
+  }
+
+  iframe{
+    width: 90%;
+  }
+  
+  #linha {
+    flex-direction: column;
+  }
+
+  #linha div {
+    width: 95%;
+  }
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
